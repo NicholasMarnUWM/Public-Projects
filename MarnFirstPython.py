@@ -3,9 +3,14 @@
 Created on Thu Feb 11 12:05:35 2021
 
 @author: nicho
+
 """
 
-""" Starting python learning. """
+""" 2/11/2021, Starting learning python. The following code is based on "Python
+programming: A Concise Introduction through Coursera and Wesleyan
+University. While the code is entirely my own, it is based on exercises
+done in the class which leads to obvious similarities as they serve as 
+solutions to the problems offered in class. """
 
 #%%
 def hello():
@@ -142,6 +147,8 @@ def blastoff():
         print(i)
         i = i - 1
     print("Blastoff!")
+    
+    
     
 
         
