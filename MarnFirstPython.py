@@ -156,7 +156,55 @@ def blastoff2():
     print("Blastoff!")
     
     
-    
+#%%
+""" Generating Lists in Python! Much like any other programming language
+the first index element starts at 0.
+
+You can get the length by putting the list object in the len function for
+example len(imaginary_list) 
+
+There is a nifty feature in Python where where imaginary_list[-1] will generate
+the last item in the list. 
+
+using imaginary_list [2:4], will display the elements at index 2 and 3, but
+importantly not 4.
+
+Another note, using imaginary_list [:4] will list all items up to that element
+so 0, 1, 2, 3 but NOT four.
+
+In a similar fashion, imaginary_list [3:] will list all items starting with element 3 up to
+the end of the list. 3,4,5,6.... etc.
+
+imaginary_list.append("x") will append x onto the list as the new LAST element
+
+Important to understand, Python (like java) is an object oriented language, as 
+such, exerything in the language is to be treated as an object.
+
+
+
+"""
+first_list =["a", "b", "c", "d"]
+def list_seeker(first_list):
+    if "a" in first_list:
+        print(True)
+    else:
+        print(False)
+    print(first_list[1])
+""" moving on to operators, the OR operator works along the same lines as ||
+in java, and works around the same lines roughly as &&. Additionally, not in
+can serve a similar function as the ! operator in Java. """
+#%%
+numbers_list = [5, 10, 15, 20, 22, 35, 8, 12]
+def averagecomputer(numbers_list):
+    counter = 0;
+    listsum = 0;
+    for numberct in numbers_list:
+        listsum = listsum + numbers_list[counter]
+        counter = counter + 1
+    averagevar = (listsum/counter)
+    print("The mean average of this list is", averagevar)
+""" Keep in mind you can call a list from the console! """
+
     
 
         
