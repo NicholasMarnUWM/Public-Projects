@@ -147,6 +147,14 @@ def blastoff():
         print(i)
         i = i - 1
     print("Blastoff!")
+#%%
+""" Example of a for loop in Python"""
+def blastoff2():
+    for count in range(10,0, -1):
+        print(count)
+    print()
+    print("Blastoff!")
+    
     
     
     
