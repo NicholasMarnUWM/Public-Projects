@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Feb 11 12:05:35 2021
-
 @author: nicho
-
 """
 
 """ 2/11/2021, Starting learning python. The following code is based on "Python
@@ -36,7 +34,6 @@ console.
 + is add, - is subtract, / is divide (with remainder), * is multiply. 
 // will give you the quotient i.e 13/4 = 3.
 by contrast, % will give you the remainder.
-
 remember to use four spaces instead of tabs-- this can somtimes cause confusion for Python.
  """
 def areacircle(radius):
@@ -64,7 +61,6 @@ areacircle(4)
 """ Moving on to strings, to make a string we use ' or ". Either works eqally
 well. However, whichever one you use first, you need to use second. I.E
 the sentence 'this is a sentence" WILL NOT WORK. 
-
 if you need BOTH a ' and " in your string, you can use the escape character \.
 This tells Python that the following character is to be taken as a LITERAL 
 character and is not a quote mark that is delimiting the string. The following
@@ -159,29 +155,19 @@ def blastoff2():
 #%%
 """ Generating Lists in Python! Much like any other programming language
 the first index element starts at 0.
-
 You can get the length by putting the list object in the len function for
 example len(imaginary_list) 
-
 There is a nifty feature in Python where where imaginary_list[-1] will generate
 the last item in the list. 
-
 using imaginary_list [2:4], will display the elements at index 2 and 3, but
 importantly not 4.
-
 Another note, using imaginary_list [:4] will list all items up to that element
 so 0, 1, 2, 3 but NOT four.
-
 In a similar fashion, imaginary_list [3:] will list all items starting with element 3 up to
 the end of the list. 3,4,5,6.... etc.
-
 imaginary_list.append("x") will append x onto the list as the new LAST element
-
 Important to understand, Python (like java) is an object oriented language, as 
 such, exerything in the language is to be treated as an object.
-
-
-
 """
 first_list =["a", "b", "c", "d"]
 def list_seeker(first_list):
@@ -205,8 +191,53 @@ def averagecomputer(numbers_list):
     print("The mean average of this list is", averagevar)
 """ Keep in mind you can call a list from the console! """
 
-    
+""" Types of data types in Python:
 
-        
-        
-    
+Python has integers, floats, strings, list of strings, and boolean to name a few
+boolean values are capitalized in python: True or false. """
+
+#%%
+
+trueVal = True
+falseVal = False
+""" an important note is you CANNOT convert strings to int implicitly, you 
+have to cast such as """
+
+xvalstring = "30"
+xvalint = int(xvalstring)
+print(xvalint)
+""" note that adding two strings will subsequently NOT work arithmetically,
+it will in fact act as concantenation, as such """
+yvalstring = "40"
+
+newstringval = xvalstring + yvalstring
+print(newstringval)
+
+""" note that the output is 3040 and NOT 70 """
+
+""" on converting datatypes: in order to do this, let's take two int variables
+and convert them to floats! """
+
+xvaltobechangedtofloat = 30
+yvaltobechangedtofloat = 35
+xfloatnewval = float(xvaltobechangedtofloat)
+yfloatnewval = float(yvaltobechangedtofloat)
+floatresult = xfloatnewval + yfloatnewval
+print(floatresult)
+
+#%%
+"""
+This cell block is directly lifted from Bill Boyd of Wesleyan University's
+course material for "Python Programming: A Concise Introduction
+
+Let's print a small report. Here is a list of New England states and
+their populations. We'll print this as a table or report. Essentially, this 
+is like the little function above, except that we need to handle the variables 
+in a more sophisticated way.
+"""
+#%%
+newEngland = [["Massachusetts",6692824],["Connecticut",3596080],
+              ["Maine",1328302],["New Hampshire",1323459],
+              ["Rhode Island",1051511],["Vermont",626630]]
+
+#%%
