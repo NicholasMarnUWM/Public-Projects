@@ -34,6 +34,6 @@ and I can close with this! */
 
 // Here is an example of how we can use Scala to hold very large ints.
 
-val bignum = BigInt("8675309867530986753098675309")
+var bignum = BigInt("8675309867530986753098675309")
 
 
