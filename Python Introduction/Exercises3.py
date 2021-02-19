@@ -1,4 +1,9 @@
 # -Exercises3.py *- coding: utf-8 -*-
+""" 2/17/2021, Starting learning python. The following code is based on "Python
+programming: A Concise Introduction through Coursera and Wesleyan
+University. While the code is entirely my own, it is based on exercises
+done in the class which leads to obvious similarities as they serve as 
+solutions to the problems offered in class. """
 
 """
 TUPLES
@@ -56,11 +61,12 @@ Example:
 #%%
 d = {"Johnny": "5 years old", "Sally": "7 years old", "Eva":"10 years old",
  "Peggy": "7 years old"}
+
 #%%
 """
 Try out the following:
 d[0] gives an error
-d['Sally'] gives '7 years old'
+d['Sally'] gives '7 years old' Nick: This works for both " and '
 d prints out as
 {'Eva': '10 years old',
  'Peggy': '7 years old',
@@ -719,7 +725,7 @@ Jerry Seinfeld,(212) 434-1234
 Elaine Benes,(212) 123-6543
 
 """
- """
+"""
 Updating a csv file
 
 Let us read a CSV file containing a person's daily weights and compute the 
