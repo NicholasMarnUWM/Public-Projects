@@ -298,10 +298,10 @@ outline of what needs to be done is given as comments.
 """
 #%% 
 def write_to_file(filename, myname, myage, major):
-    # open file first
+    outfile = open(filename, "w")
     outfile.write("My name is "+ myname + " \n")
-    # write out the age and major in two lines
-    # close the file
+    outfile.write("My age is" + str(myage) + "\n")
+    outfile.close()
 
     
 #%%
