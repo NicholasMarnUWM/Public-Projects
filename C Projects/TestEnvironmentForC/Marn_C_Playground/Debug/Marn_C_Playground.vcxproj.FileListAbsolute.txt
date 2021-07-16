@@ -1,0 +1,2 @@
+C:\Users\nicho\OneDrive\Desktop\Public_Git_Repository\C Projects\TestEnvironmentForC\Marn_C_Playground\Debug\Marn_C_Playground.exe
+C:\Users\nicho\OneDrive\Desktop\Public_Git_Repository\C Projects\TestEnvironmentForC\Marn_C_Playground\Debug\Marn_C_Playground.pdb

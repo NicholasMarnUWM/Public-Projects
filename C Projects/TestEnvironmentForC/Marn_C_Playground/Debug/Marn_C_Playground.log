@@ -1,0 +1,2 @@
+﻿  Main.c
+C:\Users\nicho\OneDrive\Desktop\Public_Git_Repository\C Projects\TestEnvironmentForC\Marn_C_Playground\Main.c(3,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
