@@ -1,0 +1,18 @@
+/* here is a list of datatypes for SQL
+INT: This is for HWHOLE NUMBERS
+
+DECIMAL(M,N): Decimal Numbers, EXACT VALUE. M Represents 
+the number of digits you want to store for this decimal number,
+whereas N represents the number of digits AFTER the decimal point.
+Example, if I were to use DECIMAL(10,4), this would set aside 
+10 digits for the number, and 4 represents the number of digits reserved
+for AFTER the decimal point. 
+
+VARCHAR (X): String of text of length X
+
+BLOB : binary Large OBject, stores large data.
+
+DATE: Expressed in "YYYY-MM-DD"
+
+TIMESTAMP: Expanded version of DATE, expressed as "YYYY-MM-DD HH:MM:SS"
+*/
