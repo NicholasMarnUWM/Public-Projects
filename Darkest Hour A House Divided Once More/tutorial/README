@@ -1,1 +1,13 @@
 
+Hello! This is a side project I started in June of 2022 as something to take my mind of my thesis-- a Hearts of Iron 2: Darkest Hour Scenario that
+explores the events of the "Business Plot" during the FDR administration and presents a chilling counterfactual-- specifically, what if they had succeeded? 
+
+This scenario was primarily inspired by Sinclair Lewis's "It Can't Happen Here", along with Oliver Stone's "The Untold History of the United States", with additional
+historical flavor and ideas provided by Jonathan M. Katz's "Gangsters of Capitalism" and Sally Denton's "The Plots Against the President". 
+
+Please note that this is a work of fiction, and additionally, an immense amount of this code is NOT my own work. This mod is heavily derived from the Hearts of Iron 2: Darkest Hour
+mods and as such, the work here should be credited to Paradox Entertainment and the Darkest Hour modding community. 
+
+Changelog:
+
+6/27/2022: Adding in tutorial & AI from Darkest Hour Full to begin testing the build environment.
